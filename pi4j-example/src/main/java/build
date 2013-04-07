@@ -108,6 +108,8 @@ javac -classpath .:classes:/opt/pi4j/lib/'*' -d . WiringPiSoftPWMExample.java
 echo "[26 of 26] ... compiling : WiringPiSPIExample.java"
 javac -classpath .:classes:/opt/pi4j/lib/'*' -d . WiringPiSPIExample.java
 
+javac -classpath .:classes:/opt/pi4j/lib/'*' -d . ParallelStepperMotorExample.java
+
 echo "---------------------------------------------------------"
 
 # THE FOLLOWING INSTRUCTIONS WILL EXECUTE ONE OF THE EXAMPLES
